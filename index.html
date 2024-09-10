@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
 
@@ -67,8 +67,8 @@
     />
     <!-- Linki do plików JS -->
 
-    <script src="/header/header.js"></script>
-    <script src="/main/portfolio/portfolio.js"></script>
+    <script src="/header/header.js" defer></script>
+    <script src="/main/portfolio/portfolio.js" defer></script>
   </head>
 
   <body>
@@ -375,7 +375,11 @@
       <section id="kontakt">
         <h2>Kontakt</h2>
         <div class="kontakt-formularz">
-          <form class="contactForm shadow" action="/send-email" method="POST">
+          <form
+            class="contactForm shadow bottom-contact-form"
+            action="/send-email"
+            method="POST"
+          >
             <input
               type="text"
               id="name"

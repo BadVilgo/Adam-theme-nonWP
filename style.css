@@ -65,7 +65,7 @@ a {
 /* CONTACT FORM */
 .contactForm {
   background-color: white;
-  min-height: 480px;
+  height: 500px;
   width: 660px;
   border-radius: 20px;
   padding: 50px;
@@ -94,13 +94,15 @@ a {
   opacity: 1;
 }
 
-/* RESPONSYWNOŚC */
+/* RESPONSYWNOŚC  DO NAPRAWY*/
 @media only screen and (max-width: 1024px) {
   .contactForm {
     background-color: white;
-    height: 460px;
-    width: 70vw;
+    width: 100%;
     border-radius: 20px;
-    padding: 50px;
+    padding: 15px 20px;
+  }
+  .contactForm input,
+  .contactForm textarea {
   }
 }

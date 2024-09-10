@@ -34,8 +34,8 @@ section {
 }
 
 .ikony-big {
-  font-size: 300px;
-  font-weight: 300;
+  font-size: 300px !important;
+  font-weight: 300 !important;
 }
 
 .flex {
@@ -82,4 +82,12 @@ section {
 
 .kontakt-formularz button {
   margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bottom-contact-form {
+    padding: 15px 20px !important;
+    width: 100% !important;
+    height: 200px !important;
+  }
 }
