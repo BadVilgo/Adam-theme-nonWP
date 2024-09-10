@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Marketing4Eagles oferuje profesjonalne usługi marketingu internetowego. Skuteczne kampanie reklamowe na Facebooku i Google Ads."
+    />
+    <meta
+      name="keywords"
+      content="marketing internetowy, reklama online, kampanie reklamowe, Facebook Ads, Google Ads"
+    />
+    <meta name="author" content="Marketing4Eagles" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta
+      property="og:title"
+      content="Marketing4Eagles - Skuteczny Marketing Internetowy"
+    />
+    <meta
+      property="og:description"
+      content="Marketing4Eagles oferuje profesjonalne usługi marketingu internetowego. Skuteczne kampanie reklamowe na Facebooku i Google Ads."
+    />
+    <meta
+      property="og:image"
+      content="https://marketing4eagles.com/image.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="<?php echo esc_url(home_url('/')); ?>"
+    />
+    <meta
+      property="twitter:title"
+      content="Marketing4Eagles - Skuteczny Marketing Internetowy"
+    />
+    <meta
+      property="twitter:description"
+      content="Marketing4Eagles oferuje profesjonalne usługi marketingu internetowego. Skuteczne kampanie reklamowe na Facebooku i Google Ads."
+    />
+    <meta
+      property="twitter:image"
+      content="https://marketing4eagles.com/image.jpg"
+    />
+
+    <!-- Linki do plików CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- Czcionka Poppns -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linki do plików JS -->
+
+    <script src="/header/header.js"></script>
+    <script src="/main/portfolio/portfolio.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo-m4e"
+        src="assets/images/logo-m4e.jpg"
+        alt="Logo Marketing4Eagles"
+      />
+      <!-- Navigation -->
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#oferta">Oferta</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-mobile">
+        <div class="hamburger-icon">
+          <span class="material-symbols-outlined ikony-header">menu</span>
+        </div>
+        <div class="close-icon" style="display: none">
+          <span class="material-symbols-outlined ikony-header">close</span>
+        </div>
+      </nav>
+      <div class="menu-mobile">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#oferta">Oferta</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </header>
+    <section id="baner">
+      <div class="baner-treść baner-child">
+        <h1>STRONY INTERNETOWE I MARKETING DLA BIZNESU</h1>
+        <p>
+          Specjalizujemy się w tworzeniu nowoczesnych i funkcjonalnych stron
+          internetowych, które wspierają osiąganie celów biznesowych naszych
+          klientów, a także pomagają im osiągać dwucyfrowe wzrosty dzięki
+          efektywnym kampaniom marketingowym.
+        </p>
+        <button type="submit" class="shadow contact-button">
+          <a href="#kontakt">SKONTAKTUJ SIĘ</a>
+        </button>
+      </div>
+      <div class="baner-kontakt baner-child">
+        <form class="contactForm shadow" action="/send-email" method="POST">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Imię i nazwisko"
+            required
+          /><br /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Adres e-mail"
+            required
+          /><br /><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Numer telefonu"
+          /><br /><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Wiadomość"
+            required
+          ></textarea
+          ><br /><br />
+          <button type="submit" class="shadow contact-button">WYŚLIJ</button>
+        </form>
+      </div>
+    </section>
+    <main>
+      <section id="oferta">
+        <h2>Zakres naszych działań</h2>
+        <div class="oferta">
+          <div class="box tworzenie-stron">
+            <span class="material-symbols-outlined ikony-oferta">web</span>
+            <h2>Tworzenie stron internetowych</h2>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Strony wizytówki
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Strony firmowe
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Landing page
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Blog
+              </li>
+            </ul>
+            <button class="shadow contact-button">
+              <a href="#kontakt">Wyślij zapytanie</a>
+            </button>
+          </div>
+          <div class="box zmiany-strony">
+            <span class="material-symbols-outlined ikony-oferta"
+              >swipe_vertical</span
+            >
+            <img />
+            <h2>Zmiany na istniejących stronach</h2>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Zmiany kodowe
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Wordpress
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Shopify
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Wix
+              </li>
+            </ul>
+            <button class="shadow contact-button">
+              <a href="#kontakt">Wyślij zapytanie</a>
+            </button>
+          </div>
+          <div class="box reklamy">
+            <span class="material-symbols-outlined ikony-oferta"
+              >data_thresholding</span
+            >
+            <img />
+            <h2>Reklama w internecie</h2>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Wzrost sprzedaży
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Zbieranie leadów
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Wzrost wizyt na stronie
+              </li>
+              <li>
+                <span class="material-symbols-outlined ikony-check-oferta"
+                  >task_alt</span
+                >Przyrost obserwatorów.
+              </li>
+            </ul>
+            <button class="shadow contact-button">
+              <a href="#kontakt">Wyślij zapytanie</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h2>Nasze portfolio stron Internetowych</h2>
+        <div class="scroller" data-direction="right" data-speed="slow">
+          <div class="scroller__inner">
+            <img class="img1 img" src="assets/images/projekt1.jpg" alt="" />
+            <img class="img2 img" src="assets/images/projekt2.jpg" alt="" />
+            <img class="img3 img" src="assets/images/projekt3.jpg" alt="" />
+            <img class="img4 img" src="assets/images/projekt4.jpg" alt="" />
+            <img class="img5 img" src="assets/images/projekt5.jpg" alt="" />
+            <img class="img6 img" src="assets/images/projekt6.jpg" alt="" />
+          </div>
+        </div>
+        <button class="shadow contact-button">
+          <a href="#kontakt">Skontaktuj się</a>
+        </button>
+        <div class="img-preview">
+          <img class="img-big" src="assets/images/projekt1.jpg" alt="" />
+          <span class="material-symbols-outlined close-preview">close</span>
+        </div>
+      </section>
+      <section id="konkurencja">
+        <div>
+          <h2>Jak wyróżnić się swoją stroną na tle konkurencji?</h2>
+          <div class="konkurencja-jak-sie-wyroznic flex">
+            <div class="konkurencja-box">
+              <span class="material-symbols-outlined ikony-big">
+                add_business
+              </span>
+            </div>
+            <div class="konkurencja-box">
+              <div>
+                <p>
+                  Aby Twoja strona internetowa skutecznie konwertowała i
+                  przyciągała uwagę klientów, zastosuj kilka kluczowych
+                  strategii:
+                </p>
+                <ul>
+                  <li>
+                    <strong>1. Unikalny design i branding</strong> – Twoja
+                    strona powinna odzwierciedlać unikalną tożsamość Twojej
+                    marki. Profesjonalny, spójny wizualnie design buduje
+                    zaufanie i zwiększa rozpoznawalność.
+                  </li>
+                  <li>
+                    <strong>2. Responsywność i szybkość działania</strong> –
+                    Strona musi działać płynnie na każdym urządzeniu, a czas
+                    ładowania powinien być jak najkrótszy, aby poprawić
+                    doświadczenie użytkownika.
+                  </li>
+                  <li>
+                    <strong>3. Jasny i przekonujący przekaz</strong> – Treści
+                    muszą być klarowne, zwięzłe i dostosowane do grupy
+                    docelowej. Skup się na korzyściach dla klienta,
+                    wykorzystując angażujące nagłówki i przemyślaną strukturę.
+                  </li>
+                  <li>
+                    <strong>4. Integracja z mediami społecznościowymi</strong> –
+                    Umożliw użytkownikom łatwe udostępnianie treści oraz
+                    interakcję z Twoją marką, co wzmocni wiarygodność i zwiększy
+                    zasięg.
+                  </li>
+                  <li>
+                    <strong>5. Analiza i ciągła optymalizacja</strong> –
+                    Regularnie analizuj wyniki i optymalizuj stronę, aby
+                    utrzymać ją na najwyższym poziomie efektywności.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="co-dostajesz">
+        <div>
+          <h2>Co dostajesz wybierając nas?</h2>
+          <div class="konkurencja-dlaczego-my back-flex">
+            <div class="konkurencja-box">
+              <ul>
+                <li>
+                  <span class="material-symbols-outlined ikony-check-oferta"
+                    >check</span
+                  ><strong>Indywidualne podejście</strong> – Każdy projekt
+                  traktujemy unikalnie, dostosowując rozwiązania do
+                  specyficznych potrzeb Twojej firmy.
+                </li>
+                <li>
+                  <span class="material-symbols-outlined ikony-check-oferta"
+                    >check</span
+                  ><strong>Nowoczesny design</strong> – Tworzymy strony, które
+                  są zarówno estetyczne, jak i funkcjonalne, łącząc piękno z
+                  użytecznością.
+                </li>
+                <li>
+                  <span class="material-symbols-outlined ikony-check-oferta"
+                    >check</span
+                  ><strong>Pełna responsywność</strong> – Twoja strona będzie
+                  wyglądać świetnie i działać płynnie na każdym urządzeniu, od
+                  komputerów po smartfony.
+                </li>
+                <li>
+                  <span class="material-symbols-outlined ikony-check-oferta"
+                    >check</span
+                  ><strong>Wsparcie techniczne</strong> – Zapewniamy kompleksową
+                  opiekę po wdrożeniu, dbając o bieżące aktualizacje i wsparcie
+                  techniczne.
+                </li>
+                <li>
+                  <span class="material-symbols-outlined ikony-check-oferta"
+                    >check</span
+                  ><strong>Integracja z narzędziami marketingowymi</strong> –
+                  Oferujemy pełną integrację z narzędziami marketingowymi, abyś
+                  mógł skutecznie docierać do swoich klientów.
+                </li>
+              </ul>
+            </div>
+            <div class="konkurencja-box">
+              <span class="material-symbols-outlined ikony-big">
+                sunny_snowing
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <div class="kontakt-formularz">
+          <form class="contactForm shadow" action="/send-email" method="POST">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Imię i nazwisko"
+              required
+            /><br /><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Adres e-mail"
+              required
+            /><br /><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Numer telefonu"
+              required
+            /><br /><br />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Wiadomość"
+              rows="5"
+              required
+            ></textarea
+            ><br /><br />
+
+            <button class="shadow contact-button" type="submit">WYŚLIJ</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Marketing4Eagles. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+  </body>
+</html>

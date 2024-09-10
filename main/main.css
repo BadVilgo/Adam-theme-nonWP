@@ -1,0 +1,85 @@
+@import url("portfolio/portfolio.css");
+@import url("baner/baner.css");
+@import url("oferta/oferta.css");
+
+main {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Optional: Centers items horizontally */
+  margin: auto;
+}
+
+section {
+  padding: 15px 20px;
+}
+
+/* RESPONSYWNOŚC GENERAL */
+@media only screen and (max-width: 1024px) {
+  main {
+    margin-top: 0px;
+  }
+  section {
+    padding: 20px 50px;
+  }
+}
+
+/* SEKCJA PYTAŃ */
+
+.konkurencja-box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ikony-big {
+  font-size: 300px;
+  font-weight: 300;
+}
+
+.flex {
+  display: flex;
+}
+
+.back-flex {
+  display: flex;
+}
+
+/* RESPONSYWNOŚC SEKCJA PYTAŃ*/
+@media only screen and (max-width: 1024px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .back-flex {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .ikony-big {
+    font-size: 200px;
+    font-weight: 300;
+  }
+  .konkurencja-box {
+    width: 100%;
+  }
+}
+
+/* SEKCJA KONTAKT */
+#kontakt {
+  margin-bottom: 30px;
+}
+
+.kontakt-formularz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kontakt-formularz button {
+  margin: auto;
+}
