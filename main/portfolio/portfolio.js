@@ -45,7 +45,7 @@ function updateImageSrc(event) {
   const imgNumber = clickedImgClass.replace("img", "");
 
   // Construct the new src path based on the image number
-  imgBig.src = `Adam-theme-nonWP/assets/images/projekt${imgNumber}BIG.jpg`;
+  imgBig.src = `./Adam-theme-nonWP/assets/images/projekt${imgNumber}BIG.jpg`;
   //let imgBig.src = `../../assets/images/projekt2BIG.jpg`;
 
   // Display the image preview
