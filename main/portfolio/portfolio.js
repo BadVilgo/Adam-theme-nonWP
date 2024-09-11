@@ -46,7 +46,7 @@ function updateImageSrc(event) {
 
   // Construct the new src path based on the image number
   //imgBig.src = `../../assets/images/projekt${imgNumber}BIG.jpg`;
-  imgBig.src = `../../assets/images/projekt2BIG.jpg`;
+  imgBig.src = `./../../assets/images/projekt2BIG.jpg`;
 
   // Display the image preview
   imgPreview.style.display = "flex";
