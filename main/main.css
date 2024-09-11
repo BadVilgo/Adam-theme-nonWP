@@ -83,11 +83,3 @@ section {
 .kontakt-formularz button {
   margin: auto;
 }
-
-@media only screen and (max-width: 1024px) {
-  .bottom-contact-form {
-    padding: 15px 20px !important;
-    width: 100% !important;
-    height: 200px !important;
-  }
-}
