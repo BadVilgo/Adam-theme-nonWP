@@ -76,8 +76,12 @@ nav ul li a {
 }
 
 /* Logo M4E */
+.logo-m4e-img,
 .logo-m4e {
-  height: 50px;
+  max-height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* RESPONSYWNOŚC */
