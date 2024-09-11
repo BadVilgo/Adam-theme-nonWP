@@ -93,7 +93,8 @@ nav ul li a {
     top: 0;
     left: 0;
   }
-  .ikony-header {
+  .ikony-header,
+  .hamburger-icon {
     display: flex;
     justify-content: center;
     align-items: center;

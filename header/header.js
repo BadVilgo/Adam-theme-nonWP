@@ -9,7 +9,7 @@ function toggleNavigation() {
 
   if (window.innerWidth <= 1024) {
     navDesktop.style.display = "none";
-    navMobile.style.display = "block";
+    navMobile.style.display = "flex";
   } else {
     navDesktop.style.display = "block";
     navMobile.style.display = "none";
