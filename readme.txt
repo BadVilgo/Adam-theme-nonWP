@@ -1,1 +1,1 @@
-git add . && git commit -m "fix" && git push
+git add . && git commit -m "img-fix" && git push
