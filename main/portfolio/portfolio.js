@@ -34,6 +34,7 @@ const images = document.querySelectorAll(
 const imgPreview = document.querySelector(".img-preview");
 const closeImgBtn = document.querySelector(".close-preview");
 const imgBig = document.querySelector(".img-big");
+const imgPreview2 = document.querySelector(".img-preview2");
 
 function updateImageSrc(event) {
   // Extract the class name that starts with 'img' from the clicked element
@@ -50,6 +51,7 @@ function updateImageSrc(event) {
 
   // Display the image preview
   imgPreview.style.display = "flex";
+  imgPreview2.style.display = "flex";
 }
 
 // Run on click & Loop through all selected images and add the event listener
@@ -60,8 +62,9 @@ images.forEach((img) => {
 //Closing image
 function closeBigImg() {
   imgPreview.style.display = "none";
+  imgPreview2.style.display = "none";
 }
 
 closeImgBtn.addEventListener("click", closeBigImg);
 
-///////////////////// Pokazanie nowej grafiki po kliknięciu w grafikę karuzeli. Otworzenie okna podglądu.
+///////////////////// guzik w prawo i lewo
