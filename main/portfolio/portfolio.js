@@ -68,3 +68,69 @@ function closeBigImg() {
 closeImgBtn.addEventListener("click", closeBigImg);
 
 ///////////////////// guzik w prawo i lewo
+
+// Pobranie referencji do przycisków
+const leftArrow = document.querySelector(".left-preview");
+const rightArrow = document.querySelector(".right-preview");
+
+// Liczba obrazów (można zmieniać, jeśli dodasz więcej)
+let totalImages = 7;
+
+// Zmienna przechowująca aktualny numer obrazu
+let currentImageNumber = 1; // Domyślnie zaczynamy od obrazu 1
+
+// Funkcja aktualizująca obraz na podstawie numeru
+function updateBigImage(number) {
+  imgBig.src = `assets/images/projekt${number}BIG.jpg`;
+
+  // Ukrywanie strzałek w zależności od aktualnego numeru obrazu
+  if (number <= 1) {
+    leftArrow.style.display = "none"; // Ukryj strzałkę w lewo, jeśli to pierwszy obraz
+  } else {
+    leftArrow.style.display = "flex"; // Pokaż strzałkę, jeśli nie jest to pierwszy obraz
+  }
+
+  if (number >= totalImages) {
+    rightArrow.style.display = "none"; // Ukryj strzałkę w prawo, jeśli to ostatni obraz
+  } else {
+    rightArrow.style.display = "flex"; // Pokaż strzałkę, jeśli nie jest to ostatni obraz
+  }
+}
+
+// EventListener dla kliknięcia w obrazy
+function updateImageSrc(event) {
+  // Pobieranie numeru z klikniętego elementu
+  const clickedImgClass = Array.from(event.target.classList).find((cls) =>
+    cls.startsWith("img")
+  );
+  const imgNumber = parseInt(clickedImgClass.replace("img", ""));
+
+  // Zaktualizowanie aktualnego numeru obrazu
+  currentImageNumber = imgNumber;
+
+  // Aktualizacja obrazu
+  updateBigImage(currentImageNumber);
+
+  // Wyświetlenie podglądu obrazu
+  imgPreview.style.display = "flex";
+  imgPreview2.style.display = "flex";
+}
+
+// EventListener dla guzika w lewo
+leftArrow.addEventListener("click", function () {
+  if (currentImageNumber > 1) {
+    currentImageNumber--; // Zmniejsz numer obrazu
+    updateBigImage(currentImageNumber); // Zaktualizuj obraz
+  }
+});
+
+// EventListener dla guzika w prawo
+rightArrow.addEventListener("click", function () {
+  if (currentImageNumber < totalImages) {
+    currentImageNumber++; // Zwiększ numer obrazu
+    updateBigImage(currentImageNumber); // Zaktualizuj obraz
+  }
+});
+
+// Inicjalizacja (pokaż ukryj strzałki w zależności od startowego obrazu)
+updateBigImage(currentImageNumber);

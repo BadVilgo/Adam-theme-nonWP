@@ -115,12 +115,12 @@
 
 .right-preview {
   top: 40vh;
-  right: 10vw;
+  right: 5vw;
 }
 
 .left-preview {
   top: 40vh;
-  left: 10vw;
+  left: 5vw;
 }
 
 /* RESPONSYWNOŚC */
@@ -136,7 +136,17 @@
   .img-preview {
     overflow: scroll;
   }
-  .close-preview {
+  .icon-preview {
     padding: 5px;
+  }
+  .right-preview {
+    top: 40vh;
+    right: 0vw;
+  }
+
+  .left-preview {
+    top: 40vh;
+    left: 2vw;
+    padding: ;
   }
 }
