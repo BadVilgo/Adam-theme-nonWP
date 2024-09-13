@@ -95,6 +95,9 @@
   right: 0;
   cursor: pointer;
   padding: 50px;
+  font-size: 2.3rem !important;
+  font-weight: 1000 !important;
+  color: white;
 }
 
 /* RESPONSYWNOŚC */
@@ -109,5 +112,7 @@
   }
   .img-preview {
     overflow: scroll;
+  }
+  .close-preview {
   }
 }
