@@ -114,5 +114,6 @@
     overflow: scroll;
   }
   .close-preview {
+    padding: 10px;
   }
 }
