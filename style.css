@@ -32,6 +32,7 @@ h2 {
   text-align: center;
   font-weight: 700;
   font-size: 1.8rem;
+  color: #272727;
 }
 
 /* SHADOW */
@@ -75,11 +76,10 @@ a {
 .contactForm textarea {
   border: none;
   border-radius: 10px;
-  background-color: #000;
-  opacity: 15%;
+  background-color: #eceaea;
+  opacity: 80%;
   width: 100%;
   height: 45px;
-  color: white;
   font-weight: 600;
   padding: 10px;
 }

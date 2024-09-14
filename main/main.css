@@ -31,11 +31,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px 10px;
 }
 
 .konkurencja-box img {
   width: 100%;
-  padding: 0 50px;
+  border: solid 2px black;
 }
 
 .ikony-big {
@@ -70,6 +71,7 @@ section {
   }
   .konkurencja-box {
     width: 100%;
+    padding: 0px 0px;
   }
 }
 
