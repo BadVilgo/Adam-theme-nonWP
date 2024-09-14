@@ -87,11 +87,16 @@ a {
 .contactForm textarea {
   height: 80px;
   font-weight: 500;
+  resize: none;
 }
 
 .contactForm input::placeholder,
 .contactForm textarea::placeholder {
   opacity: 1;
+}
+
+.bottom-contact-form {
+  width: 800px;
 }
 
 /* RESPONSYWNOŚC  DO NAPRAWY*/
