@@ -105,9 +105,7 @@ a {
     background-color: white;
     width: 100%;
     border-radius: 20px;
-    padding: 15px 20px;
-  }
-  .contactForm input,
-  .contactForm textarea {
+    padding: 25px 20px;
+    height: 430px;
   }
 }
