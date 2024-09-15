@@ -100,3 +100,12 @@ nav ul li a {
     align-items: center;
   }
 }
+
+@media only screen and (max-width: 440px) {
+  .baner-treść h1 {
+    font-size: 1.6rem;
+  }
+  .baner-treść p {
+    font-size: 1rem;
+  }
+}
