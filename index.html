@@ -123,7 +123,16 @@
         </button>
       </div>
       <div class="baner-kontakt baner-child">
-        <form class="contactForm shadow" action="/send-email" method="POST">
+        <form
+          class="contactForm shadow bottom-contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="85e8a157-567d-449a-98e5-04ba96c11749"
+          />
           <input
             type="text"
             id="name"
@@ -416,9 +425,14 @@
         <div class="kontakt-formularz">
           <form
             class="contactForm shadow bottom-contact-form"
-            action="/send-email"
+            action="https://api.web3forms.com/submit"
             method="POST"
           >
+            <input
+              type="hidden"
+              name="access_key"
+              value="85e8a157-567d-449a-98e5-04ba96c11749"
+            />
             <input
               type="text"
               id="name"
