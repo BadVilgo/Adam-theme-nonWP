@@ -1,1 +1,1 @@
-git add . && git commit -m "img-fix" && git push
+https://badvilgo.github.io/Adam-theme-nonWP
